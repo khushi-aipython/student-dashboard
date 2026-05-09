@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+</head>
+<body>
+    <div class="dashboard">
+    
+        <aside class="sidebar">
+        <h2>Tech Student</h2>
+        <nav>
+            <a href="#"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
+            <a href="#"><i class="fas fa-folder-open"></i>Projects</a>
+            <a href="#"><i class="fas fa-tasks"></i>Tasks</a>
+            <a href="#"><i class="fas fa-user"></i>Profile</a>   
+        </nav>
+        </aside>
+    
+    <main class="main-content">
+        <header class="header">
+            <div class="search-container">
+            <input type="text" placeholder="Search..."> <i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="profile">
+                <img src="student_avtar.jpeg" alt="student-profile">
+                <span>Khushi</span>
+            </div>
+        </header>
+
+        <section class="stats">
+            <div class="card">
+                 <i class="fas fa-book fa-2x"></i>
+                <h3>Courses</h3>
+                <p>12</p>
+                </div>
+            <div class="card">
+                <i class="fas fa-folder-open fa-2x"></i>
+                <h3>Projects</h3>
+                <p>8</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-clock fa-2x"></i>
+                <h3>Hours</h3>
+                <p>120</p>
+            </div>
+        </section>
+        
+        <section class="projects">
+            <h2>Active Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                <span><i class="fas fa-cogs"></i>Flexbox Practice</span><span>In Progress</span></div>
+                <div class="project">
+                    <span><i class="fas fa-th-large"></i> Grid Layout</span><span>Completed</span></div>
+                <div class="project">
+                    <span><i class="fas fa-briefcase"></i>Portfolio</span><span>Pending</span>
+                </div>
+                    
+            </div>
+        </section>
+    </main>
+    </div>
+</body>
+</html>
